@@ -1,0 +1,18 @@
+﻿<project baseDir="." outputDir=".\obfuscated" xmlns="http://confuser.codeplex.com">
+  <module path="iUnlockCloudRamdiskPro.exe">
+    <rule pattern="true" inherit="false">
+      <protection id="constants" />
+      <protection id="ctrl flow" />
+      <protection id="ref proxy" />
+      <protection id="resources" />
+    </rule>
+  </module>
+  <module path="iUnlockCloudRamdiskPro.Backend.dll">
+    <rule pattern="true" inherit="false">
+      <protection id="constants" />
+      <protection id="ctrl flow" />
+      <protection id="ref proxy" />
+      <protection id="resources" />
+    </rule>
+  </module>
+</project>
